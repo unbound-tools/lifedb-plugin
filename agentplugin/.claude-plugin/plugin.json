@@ -1,0 +1,16 @@
+{
+  "name": "lifedb",
+  "version": "0.2.1",
+  "description": "Ask your agent about your own messages, conversations, contacts, calendar, documents, and attachments in your LifeDB.",
+  "author": { "name": "LifeDB" },
+  "license": "MIT",
+  "keywords": ["lifedb", "personal data", "mcp"],
+  "userConfig": {
+    "lifedb_url": {
+      "type": "string",
+      "title": "Your LifeDB MCP address",
+      "description": "Copy it from Agents → Connect your assistant in LifeDB. It starts with https:// unless LifeDB runs on this computer, and ends in /mcp.",
+      "required": true
+    }
+  }
+}

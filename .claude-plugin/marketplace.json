@@ -1,0 +1,12 @@
+{
+  "name": "lifedb",
+  "description": "The LifeDB plugin for Claude Code.",
+  "owner": { "name": "LifeDB" },
+  "plugins": [
+    {
+      "name": "lifedb",
+      "source": "./agentplugin",
+      "description": "Ask your agent about your own messages, conversations, contacts, calendar, documents, and attachments in your LifeDB."
+    }
+  ]
+}

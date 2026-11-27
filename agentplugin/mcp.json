@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "lifedb": {
+      "type": "streamable-http",
+      "url": "https://lifedb.invalid/mcp"
+    }
+  }
+}

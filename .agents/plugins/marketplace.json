@@ -1,0 +1,12 @@
+{
+  "name": "lifedb",
+  "interface": { "displayName": "LifeDB" },
+  "plugins": [
+    {
+      "name": "lifedb",
+      "source": { "source": "local", "path": "./agentplugin" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
