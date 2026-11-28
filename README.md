@@ -53,11 +53,12 @@ The plugin holds two things, and nothing else:
 
 When you ask a question, the assistant searches your LifeDB and answers with links to the items that it used, so you can open them in LifeDB.
 
-The assistant only reads unless LifeDB gives it write access and you ask it to save a note, correct an item, or say which person an address belongs to. What it writes becomes part of your data in LifeDB, labelled with the assistant that wrote it.
+The assistant only reads unless LifeDB gives it write access or a power to manage your sources or access, and you ask it for that change: to save a note, correct an item, say which person an address belongs to, or manage your sources and access. What it writes becomes part of your data in LifeDB, labelled with the assistant that wrote it.
 
 ## What It Never Does
 
-- It changes nothing in your LifeDB unless two things are true: you gave this assistant write access in LifeDB, and you ask it for that change in your conversation. An assistant that signs in through your browser, as the steps above set up, gets read access only.
+- It changes nothing in your LifeDB unless two things are true: you gave this assistant write access, or the power to manage your sources or your access, in LifeDB, and you ask it for that change in your conversation. An assistant that signs in through your browser, as the steps above set up, gets read access only.
+- With the power to manage sources or access, it can only narrow or take away access, start an import, or remove a source, whose imported data stays in LifeDB. Anything that gives more access or connects a source is only a proposal: nothing changes until you confirm it in LifeDB.
 - It never removes an item from your LifeDB. No LifeDB tool that the assistant uses can do that.
 - It never reads more than you allowed. LifeDB decides what each assistant may see, and the **Agents** page in LifeDB shows and changes it.
 - It runs no program on your computer. The plugin is only the text files in this repository: no scripts, no programs, and no background tasks.
