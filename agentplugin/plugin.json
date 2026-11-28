@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "lifedb",
-  "version": "0.2.1",
+  "version": "0.3.4",
   "description": "Ask your agent about your own messages, conversations, contacts, calendar, documents, and attachments in your LifeDB.",
   "author": { "name": "LifeDB" },
   "license": "MIT",
